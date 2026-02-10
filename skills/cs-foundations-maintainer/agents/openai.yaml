@@ -1,0 +1,4 @@
+interface:
+  display_name: "CS Foundations Maintainer"
+  short_description: "Maintain and privacy-sanitize the cs-foundations repo."
+  default_prompt: "Maintain, organize, and privacy-sanitize the cs-foundations repository. Scan for sensitive info and redact with *** before any publishing guidance."
