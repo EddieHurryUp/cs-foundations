@@ -5,6 +5,7 @@
 
 ## Core Areas / 核心领域
 - 编程基础：`notes/01-programming/`
+- Java 复习笔记框架：`notes/01-programming/java-review.md`
 - 数据结构：`notes/02-data-structures/`
 - 算法：`notes/03-algorithms/`
 - 操作系统：`notes/04-os/`

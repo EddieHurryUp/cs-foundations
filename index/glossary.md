@@ -11,6 +11,9 @@
 ## C
 - CAP - 分布式系统取舍 - `notes/08-distributed/`
 
+## J
+- JVM - Java 虚拟机 - `notes/01-programming/java-review.md`
+
 ## M
 - MVCC - 多版本并发控制 - `notes/06-db/`
 
