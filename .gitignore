@@ -1,0 +1,30 @@
+# macOS
+.DS_Store
+
+# Editor/OS temp files
+*.tmp
+*.swp
+*.bak
+*~
+*.log
+
+# Large binary archives/media (allow .txt)
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.rar
+*.gz
+*.bz2
+*.xz
+*.iso
+*.dmg
+*.bin
+*.mp4
+*.mov
+*.mkv
+*.avi
+*.mp3
+*.wav
+*.flac
