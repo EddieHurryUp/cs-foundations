@@ -4,6 +4,7 @@
 
 ## Core Tags / 核心标签
 - programming
+- java
 - data-structures
 - algorithms
 - os

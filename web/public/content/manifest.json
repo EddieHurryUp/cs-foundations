@@ -30,6 +30,16 @@
     "group": "notes"
   },
   {
+    "path": "notes/01-programming/java-review.md",
+    "title": "Java 复习笔记框架",
+    "tags": [
+      "java",
+      "programming",
+      "review"
+    ],
+    "group": "notes"
+  },
+  {
     "path": "notes/06-db/database-fundamentals.md",
     "title": "数据库基础知识",
     "tags": [

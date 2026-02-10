@@ -22,6 +22,7 @@ description: 维护并组织 `cs-foundations` 知识库，包括结构整理、�
 - 文件命名优先使用 `kebab-case.md`。
 - 主题索引/标签/术语表与内容保持同步。
 - 当新增/移动/删除内容时，必须更新索引文件（如 `index/topics.md`、`index/tags.md`、`index/glossary.md`）。
+- 当内容有变更且需要同步到网站时，运行 `node web/scripts/sync-content.js` 并更新清单 `node web/scripts/generate-manifest.js`。
 - 参考 `references/maintenance_checklist.md` 做例行维护。
 
 ### 3. Privacy Scan (Mandatory) / 隐私扫描（必做）
