@@ -2,31 +2,40 @@
   {
     "path": "README.md",
     "title": "README",
+    "tags": [],
     "group": "root"
   },
   {
     "path": "index/glossary.md",
     "title": "glossary",
+    "tags": [],
     "group": "index"
   },
   {
     "path": "index/tags.md",
     "title": "tags",
+    "tags": [],
     "group": "index"
   },
   {
     "path": "index/topics.md",
     "title": "topics",
+    "tags": [],
     "group": "index"
   },
   {
     "path": "notes/00-overview/learning-map.md",
     "title": "learning map",
+    "tags": [],
     "group": "notes"
   },
   {
     "path": "notes/06-db/database-fundamentals.md",
-    "title": "database fundamentals",
+    "title": "数据库基础知识",
+    "tags": [
+      "db",
+      "fundamentals"
+    ],
     "group": "notes"
   }
 ]
