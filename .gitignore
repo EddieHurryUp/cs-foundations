@@ -28,3 +28,11 @@
 *.mp3
 *.wav
 *.flac
+
+# Web app
+web/node_modules/
+web/dist/
+web/.vite/
+
+# Privacy scan
+privacy-report.txt

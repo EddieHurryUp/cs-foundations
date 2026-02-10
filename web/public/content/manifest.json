@@ -1,0 +1,32 @@
+[
+  {
+    "path": "README.md",
+    "title": "README",
+    "group": "root"
+  },
+  {
+    "path": "index/glossary.md",
+    "title": "glossary",
+    "group": "index"
+  },
+  {
+    "path": "index/tags.md",
+    "title": "tags",
+    "group": "index"
+  },
+  {
+    "path": "index/topics.md",
+    "title": "topics",
+    "group": "index"
+  },
+  {
+    "path": "notes/00-overview/learning-map.md",
+    "title": "learning map",
+    "group": "notes"
+  },
+  {
+    "path": "notes/06-db/database-fundamentals.md",
+    "title": "database fundamentals",
+    "group": "notes"
+  }
+]
