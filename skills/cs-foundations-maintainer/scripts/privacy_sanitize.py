@@ -38,6 +38,10 @@ DEFAULT_EXCLUDE_EXTS = {
     ".otf",
 }
 
+DEFAULT_EXCLUDE_PATHS = {
+    "web/package-lock.json",
+}
+
 DEFAULT_PATTERNS = [
     r"[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}",  # email
     r"\b\d{3}[-.\s]?\d{2}[-.\s]?\d{4}\b",  # US SSN-like
@@ -112,18 +116,23 @@ def main() -> int:
     parser.add_argument("--patterns", help="Path to regex patterns file.")
     parser.add_argument("--redact", action="store_true", help="Replace matches with ***.")
     parser.add_argument("--exclude-ext", action="append", default=[], help="Extra extensions to skip.")
+    parser.add_argument("--exclude-path", action="append", default=[], help="Repo-relative paths to skip.")
     parser.add_argument("--report", default="privacy-report.txt", help="Report file name in repo root.")
     args = parser.parse_args()
 
     repo_root = get_repo_root(Path.cwd())
     patterns = load_patterns(Path(args.patterns) if args.patterns else None)
     exclude_exts = set(DEFAULT_EXCLUDE_EXTS) | {ext if ext.startswith(".") else f".{ext}" for ext in args.exclude_ext}
+    exclude_paths = DEFAULT_EXCLUDE_PATHS | {p.strip() for p in args.exclude_path if p.strip()}
 
     report_lines = []
     total_hits = 0
     total_files = 0
 
     for path in iter_files(repo_root):
+        rel_path = str(path.relative_to(repo_root))
+        if rel_path in exclude_paths:
+            continue
         if path.suffix.lower() in exclude_exts:
             continue
         try:

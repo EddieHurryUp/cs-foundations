@@ -31,6 +31,7 @@ description: 维护并组织 `cs-foundations` 知识库，包括结构整理、�
 - 使用 `scripts/privacy_sanitize.py`，示例：
   - `python3 skills/cs-foundations-maintainer/scripts/privacy_sanitize.py --report privacy-report.txt --patterns skills/cs-foundations-maintainer/references/privacy_patterns.txt`
 - 汇总报告并向用户说明命中情况。
+- 说明：对已知误报文件（如 `web/package-lock.json`）可通过 `--exclude-path` 跳过，以避免破坏依赖锁文件。
 
 ### 4. Redaction (Mandatory for Publishing) / 脱敏处理（发布必做）
 
