@@ -7,7 +7,7 @@ public class PrimitiveTypesDemo {
         int intVar = 100_000;
         long longVar = 10_000_000_000L;
         float floatVar = 3.14f;
-        double doubleVar = 3.***;
+        // double doubleVar = 3.***;
         char charVar = 'A';
         boolean booleanVar = true;
         System.out.println("byte: " + byteVar);
@@ -15,7 +15,7 @@ public class PrimitiveTypesDemo {
         System.out.println("int: " + intVar);
         System.out.println("long: " + longVar);
         System.out.println("float: " + floatVar);
-        System.out.println("double: " + doubleVar);
+        // System.out.println("double: " + doubleVar);
         System.out.println("char: " + charVar);
         System.out.println("boolean: " + booleanVar);
 
@@ -26,7 +26,7 @@ public class PrimitiveTypesDemo {
         System.out.println("int type: " + ((Object) intVar).getClass().getSimpleName());
         System.out.println("long type: " + ((Object) longVar).getClass().getSimpleName());
         System.out.println("float type: " + ((Object) floatVar).getClass().getSimpleName());
-        System.out.println("double type: " + ((Object) doubleVar).getClass().getSimpleName());
+        // System.out.println("double type: " + ((Object) doubleVar).getClass().getSimpleName());
         System.out.println("char type: " + ((Object) charVar).getClass().getSimpleName());
         System.out.println("boolean type: " + ((Object) booleanVar).getClass().getSimpleName());
 
@@ -43,12 +43,12 @@ public class PrimitiveTypesDemo {
         // TODO: 写出 long/float/double 字面量的正确后缀，并尝试省略后缀对比报错
         long longLiteral = 10000000000L; // 正确的 long 字面量
         float floatLiteral = 3.14f;       // 正确的 float 字面
-        double doubleLiteral = 3.***; // 正确的 double 字面量
+        // double doubleLiteral = 3.***; // 正确的 double 字面量
         // long longError = ***; // 省略后缀
         // float floatError = 3.14; // 省略后缀
         System.out.println("long literal: " + longLiteral);
         System.out.println("float literal: " + floatLiteral);
-        System.out.println("double literal: " + doubleLiteral);
+        // System.out.println("double literal: " + doubleLiteral);
         System.out.println("=".repeat(30));
         // TODO: 观察 char 与 int 的相互转换（打印字符与对应码点）
         char charA = 'A';
