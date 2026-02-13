@@ -15,6 +15,10 @@
 - security
 - ai
 - tools
+- api
+- http
+- rest
+- debug
 
 ## Interview / 面试
 - interview

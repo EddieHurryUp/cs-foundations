@@ -36,3 +36,7 @@ web/.vite/
 
 # Privacy scan
 privacy-report.txt
+
+# Python cache
+__pycache__/
+*.pyc

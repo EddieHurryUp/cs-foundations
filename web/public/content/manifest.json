@@ -47,5 +47,60 @@
       "fundamentals"
     ],
     "group": "notes"
+  },
+  {
+    "path": "notes/12-api-lab/README.md",
+    "title": "API 实验室目录说明",
+    "tags": [
+      "api",
+      "python",
+      "learning"
+    ],
+    "group": "notes"
+  },
+  {
+    "path": "notes/12-api-lab/api-lab-learning-map.md",
+    "title": "API 实验学习地图（Python）",
+    "tags": [
+      "api",
+      "http",
+      "rest",
+      "debug",
+      "python"
+    ],
+    "group": "notes"
+  },
+  {
+    "path": "notes/12-api-lab/experiment-log-template.md",
+    "title": "API 实验记录模板",
+    "tags": [
+      "api",
+      "debug",
+      "learning"
+    ],
+    "group": "notes"
+  },
+  {
+    "path": "notes/12-api-lab/learning-summary-round-1.md",
+    "title": "API 实验学习总结（第 1 轮）",
+    "tags": [
+      "api",
+      "http",
+      "python",
+      "debug",
+      "summary"
+    ],
+    "group": "notes"
+  },
+  {
+    "path": "notes/12-api-lab/python-debug-playbook.md",
+    "title": "Python API 调试手册",
+    "tags": [
+      "api",
+      "debug",
+      "python",
+      "http"
+    ],
+    "group": "notes"
   }
 ]

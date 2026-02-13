@@ -17,6 +17,8 @@
 - 安全：`notes/09-security/`
 - AI：`notes/10-ai/`
 - 工具：`notes/11-tools/`
+- API 实验室：`notes/12-api-lab/`
+  Python API 实验总览：`notes/12-api-lab/api-lab-learning-map.md`
 
 ## Problems / 题库
 - LeetCode：`problems/leetcode/`

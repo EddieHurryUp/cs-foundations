@@ -25,6 +25,7 @@ cs-foundations/
     09-security/
     10-ai/
     11-tools/
+    12-api-lab/
   problems/
     leetcode/
     interview/
